@@ -8,6 +8,16 @@
   </a>
 </p>
 
+### 🐍 Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
 ---
 
 ### 🚀 About Me
@@ -122,18 +132,6 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YTTHEMIGHTY&theme=transparent" alt="stats" width="40%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YTTHEMIGHTY&theme=transparent&utcOffset=5.5" alt="productive time" width="40%" />
-</p>
-
----
-
-### 🐍 Contribution Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YTTHEMIGHTY/YTTHEMIGHTY/output/github-contribution-grid-snake.svg" />
-  </picture>
 </p>
 
 <p align="center">
