@@ -64,10 +64,18 @@ const yashvardhan = {
 
 ---
 
+### 🔥 Featured Project
+
+<a href="https://github.com/YTTHEMIGHTY/create-dsa-lab">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YTTHEMIGHTY&repo=create-dsa-lab&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
+
+---
+
 ### 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YTTHEMIGHTY&theme=tokyonight&hide_border=true&background=0d1117" alt="streak stats" />
+  <img src="https://streak-stats.demolab.com/?user=YTTHEMIGHTY&theme=tokyonight&hide_border=true&background=0d1117" alt="streak stats" />
 </div>
 
 <br />
