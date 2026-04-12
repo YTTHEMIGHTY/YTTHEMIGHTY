@@ -34,10 +34,10 @@
     "test": "type-safe architectures with 100% confidence"
   },
   "dependencies": {
-    "react": "expert",
-    "next.js": "expert",
-    "node.js": "expert",
-    "typescript": "can't live without it",
+    "react": "^18.0.0",
+    "next.js": "^15.0.0",
+    "node.js": "^22.0.0",
+    "typescript": "strict mode only",
     "coffee": "∞"
   }
 }
