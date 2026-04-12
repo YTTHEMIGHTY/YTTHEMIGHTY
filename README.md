@@ -66,9 +66,26 @@ const yashvardhan = {
 
 ### 🔥 Featured Project
 
-<a href="https://github.com/YTTHEMIGHTY/create-dsa-lab">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=YTTHEMIGHTY&repo=create-dsa-lab&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
+<table align="center">
+  <tr>
+    <td>
+      <h3>📦 <a href="https://github.com/YTTHEMIGHTY/create-dsa-lab">create-dsa-lab</a></h3>
+      <p>A CLI tool to scaffold a fully configured DSA practice lab with TypeScript, Jest, and a built-in dashboard.</p>
+      <p>
+        <a href="https://www.npmjs.com/package/create-dsa-lab">
+          <img src="https://img.shields.io/npm/v/create-dsa-lab?style=for-the-badge&logo=npm&logoColor=white&color=CB3837" alt="npm version" />
+        </a>
+        <a href="https://www.npmjs.com/package/create-dsa-lab">
+          <img src="https://img.shields.io/npm/dt/create-dsa-lab?style=for-the-badge&logo=npm&logoColor=white&color=0d1117" alt="npm downloads" />
+        </a>
+        <a href="https://github.com/YTTHEMIGHTY/create-dsa-lab">
+          <img src="https://img.shields.io/github/stars/YTTHEMIGHTY/create-dsa-lab?style=for-the-badge&logo=github&logoColor=white&color=0d1117" alt="github stars" />
+        </a>
+      </p>
+      <pre>npx create-dsa-lab my-dsa-lab</pre>
+    </td>
+  </tr>
+</table>
 
 ---
 
