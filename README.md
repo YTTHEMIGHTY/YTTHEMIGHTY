@@ -87,11 +87,11 @@
 
 ---
 
-### 🔥 Featured Project
+### 🔥 Featured Projects
 
 <table align="center">
   <tr>
-    <td>
+    <td width="50%" valign="top">
       <h3>📦 <a href="https://github.com/YTTHEMIGHTY/create-dsa-lab">create-dsa-lab</a></h3>
       <p>A CLI tool to scaffold a fully configured DSA practice lab with TypeScript, Jest, and a built-in dashboard.</p>
       <p>
@@ -106,6 +106,21 @@
         </a>
       </p>
       <pre>npx create-dsa-lab my-dsa-lab</pre>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/YTTHEMIGHTY/bigo-lens">BigO Lens</a></h3>
+      <p>An offline VS Code Extension powering inline, pure AST-based Big-O time and space complexity annotations.</p>
+      <p>
+        <a href="https://marketplace.visualstudio.com/items?itemName=YTTHEMIGHTY.bigo-lens">
+          <img src="https://img.shields.io/visual-studio-marketplace/v/YTTHEMIGHTY.bigo-lens?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=007ACC" alt="VS Marketplace Version" />
+        </a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=YTTHEMIGHTY.bigo-lens">
+          <img src="https://img.shields.io/visual-studio-marketplace/d/YTTHEMIGHTY.bigo-lens?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=0d1117" alt="VS Marketplace Downloads" />
+        </a>
+        <a href="https://github.com/YTTHEMIGHTY/bigo-lens">
+          <img src="https://img.shields.io/github/stars/YTTHEMIGHTY/bigo-lens?style=for-the-badge&logo=github&logoColor=white&color=0d1117" alt="github stars" />
+        </a>
+      </p>
     </td>
   </tr>
 </table>
