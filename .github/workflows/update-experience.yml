@@ -1,0 +1,99 @@
+name: ⏱️ Update Experience Version
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate experience & update README
+        run: |
+          python3 << 'EOF'
+          from datetime import date, timedelta
+          import re
+
+          # Career timeline
+          PERIOD_1_START = date(2021, 2, 8)   # DOJ Anand Rathi
+          PERIOD_1_END   = date(2022, 11, 29) # LWD Anand Rathi
+          PERIOD_2_START = date(2022, 12, 26) # DOJ Infosys
+
+          today = date.today()
+
+          # Calculate total experience days (excluding gap between jobs)
+          period_1_days = (PERIOD_1_END - PERIOD_1_START).days
+          period_2_days = (today - PERIOD_2_START).days
+          total_days = period_1_days + period_2_days
+
+          # Convert total days to years, months, days
+          # Use an adjusted start date: shift actual start forward by the gap duration
+          gap_days = (PERIOD_2_START - PERIOD_1_END).days
+          adjusted_start = PERIOD_1_START + timedelta(days=gap_days)
+
+          # Calculate Y.M.D diff between adjusted_start and today
+          years = today.year - adjusted_start.year
+          months = today.month - adjusted_start.month
+          days = today.day - adjusted_start.day
+
+          if days < 0:
+              months -= 1
+              # Get the last day of the previous month
+              prev_month_last = (today.replace(day=1) - timedelta(days=1)).day
+              days += prev_month_last
+
+          if months < 0:
+              years -= 1
+              months += 12
+
+          version = f"{years}.{months}.{days}"
+          print(f"📦 Experience version: {version}")
+          print(f"   Total days: {total_days}")
+          print(f"   Period 1: {period_1_days} days ({PERIOD_1_START} → {PERIOD_1_END})")
+          print(f"   Period 2: {period_2_days} days ({PERIOD_2_START} → {today})")
+
+          # Update README.md
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          # Replace the version in the JSON block
+          updated = re.sub(
+              r'"version":\s*"\d+\.\d+\.\d+"',
+              f'"version": "{version}"',
+              content
+          )
+
+          if updated != content:
+              with open("README.md", "w") as f:
+                  f.write(updated)
+              print(f"✅ README.md updated to v{version}")
+          else:
+              print("ℹ️  Version already up to date, no changes needed")
+
+          # Write version to environment for commit message
+          import os
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"version={version}\n")
+              f.write(f"changed={'true' if updated != content else 'false'}\n")
+          EOF
+
+      - name: Commit & push changes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            VERSION=$(sed -n 's/.*"version": "\([^"]*\)".*/\1/p' README.md)
+            git commit -m "⏱️ experience: v${VERSION}"
+            git push
+          fi
