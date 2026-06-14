@@ -1,16 +1,22 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=250&section=header&text=Yashvardhan%20Thanvi&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Senior%20Full%20Stack%20Engineer%20%E2%80%A2%20JavaScript%20Ecosystem&descSize=20&descAlignY=67&fontAlignY=40" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:142b1a&height=250&section=header&text=Yashvardhan%20Thanvi&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Senior%20Full%20Stack%20Engineer%20%E2%80%A2%20Backend%20%E2%80%A2%20AI%20Integration&descSize=20&descAlignY=67&fontAlignY=40" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://thanvi.dev">
     <img src="https://img.shields.io/badge/Portfolio-thanvi.dev-000000?style=for-the-badge&logoColor=white" alt="Portfolio" />
   </a>
+  <a href="https://linkedin.com/in/yashvardhan-thanvi">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/u/5ZZVdbISOr/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/YTTHEMIGHTY">
-    <img src="https://readme-typing-svg.demolab.com/?lines=5%2B+Years+%C2%B7+Enterprise+Architecture;React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Node.js;Server-Driven+UIs+%C2%B7+BFF+Patterns;Core+Web+Vitals+%C2%B7+Type-Safe+Codebases&font=Share+Tech+Mono&size=22&center=true&width=600&height=50&color=FFFFFF&vCenter=true&pause=1000" width="100%" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=5%2B+Years+%C2%B7+Enterprise+Architecture;Node.js+%C2%B7+Python+%C2%B7+Next.js+%C2%B7+React;Microservices+%C2%B7+Event-Driven+Architecture;AI+Agentic+Workflows+%C2%B7+BFF+Patterns;High-Throughput+APIs+%C2%B7+System+Design&font=Share+Tech+Mono&size=22&center=true&width=600&height=50&color=FFFFFF&vCenter=true&pause=1000" width="100%" alt="Typing SVG" />
   </a>
 </p>
 
@@ -32,25 +38,27 @@
 ```json
 {
   "name": "yashvardhan-thanvi",
-  "version": "5.3.7",
-  "description": "Senior Full Stack Engineer · building for the web since Feb 2021",
-  "main": "react + next.js + typescript",
+  "version": "5.4.14",
+  "description": "Senior Full Stack Engineer · building robust platforms since Feb 2021",
+  "main": "node.js + python + next.js + typescript",
   "scripts": {
-    "build": "enterprise-grade web platforms",
-    "dev": "server-driven UIs · headless commerce",
-    "test": "type-safe architectures · 100% confidence",
-    "optimize": "core web vitals · performance-first"
+    "architect": "high-throughput APIs · event-driven microservices",
+    "build": "backend-for-frontend (BFF) · headless platforms",
+    "integrate": "agentic workflows · model context protocol (mcp)",
+    "optimize": "secure validation · performance at scale"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "next.js": "^15.0.0",
     "typescript": "strict mode only",
     "node.js": "^22.0.0",
-    "prisma": "latest",
+    "nestjs": "api gateways",
+    "python": "ai workers",
+    "react": "^19.0.0",
+    "next.js": "^15.0.0",
     "postgresql": "enterprise-ready",
-    "tanstack": "query + router",
+    "prisma": "latest",
+    "drizzle": "high performance",
     "zustand": "lightweight state mgmt",
-    "ai-workflows": "kiro + claude + copilot",
+    "ai-workflows": "mcp + vercel sdk",
     "coffee": "∞"
   }
 }
@@ -58,10 +66,10 @@
 
 > ⏱️ *`version` auto-increments daily — it's my live experience counter (years.months.days)*
 
-- 🔭 Currently architecting **Server-Driven UIs** and **Headless Commerce** platforms at enterprise scale
-- 🏗️ Deep expertise in **React, Next.js (App Router/SSR/ISR), TypeScript** and **Node.js BFF layers**
-- 🤖 Leveraging **AI-augmented workflows** (Kiro CLI, Claude, Gemini) to accelerate frontend delivery
-- ⚡ Obsessed with **Core Web Vitals**, clean **Zustand/Redux** state management, and type-safe codebases
+- 🔭 Currently architecting **high-throughput APIs** and **event-driven microservices** for enterprise platforms
+- 🏗️ Deep expertise in **TypeScript, Node.js (NestJS), Python**, and robust **Next.js/React** frontends
+- 🤖 Leveraging **AI-assisted development**, **Model Context Protocol (MCP)**, and **Agentic Workflows**
+- ⚡ Obsessed with **clean system design**, strict payload validation, and **highly performant backend architectures**
 
 > *"Everything that can be written in JavaScript, will eventually be written in JavaScript."* — **Atwood's Law**
 
@@ -117,6 +125,8 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white" alt="SCSS" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL" />
 </p>
 
 #### ⚛️ Frontend Frameworks & Libraries
@@ -147,6 +157,24 @@
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white" alt="Bun" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white" alt="PM2" />
+  <img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=trpc&logoColor=white" alt="tRPC" />
+</p>
+
+#### 🗄️ Databases & ORMs
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white" alt="DynamoDB" />
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat&logo=drizzle&logoColor=black" alt="Drizzle ORM" />
 </p>
 
 #### 🏗️ Build, Testing & Architecture
@@ -160,6 +188,16 @@
   <img src="https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white" alt="CI/CD" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Supertest-000000?style=flat&logo=testinglibrary&logoColor=white" alt="Supertest" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat&logo=sonarqube&logoColor=white" alt="SonarQube" />
+  <img src="https://img.shields.io/badge/Veracode-00B2E2?style=flat&logo=security&logoColor=white" alt="Veracode" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white" alt="Zod" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Jira" />
 </p>
 
 #### 🤖 AI & Agentic Workflows
@@ -169,6 +207,10 @@
   <img src="https://img.shields.io/badge/Amazon_Q-FF9900?style=flat&logo=amazonaws&logoColor=white" alt="Amazon Q" />
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" alt="Claude" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/MCP-1A1A1A?style=flat&logo=openai&logoColor=white" alt="Model Context Protocol" />
+  <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel AI SDK" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
 </p>
 
 ---
@@ -178,23 +220,22 @@
 
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YTTHEMIGHTY&show_icons=true&hide_border=true&title_color=06b6d4&icon_color=a855f7&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YTTHEMIGHTY&layout=compact&hide_border=true&title_color=06b6d4&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YTTHEMIGHTY&show_icons=true&hide_border=true&title_color=339933&icon_color=a855f7&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YTTHEMIGHTY&layout=compact&hide_border=true&title_color=339933&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" width="48%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=YTTHEMIGHTY&theme=github-dark&hide_border=true&ring=06b6d4&fire=a855f7&currStreakNum=c9d1d9&sideNums=c9d1d9&bg_color=0d1117" alt="streak stats" width="70%" />
+  <img src="https://streak-stats.demolab.com/?user=YTTHEMIGHTY&theme=github-dark&hide_border=true&ring=339933&fire=a855f7&currStreakNum=c9d1d9&sideNums=c9d1d9&bg_color=0d1117" alt="streak stats" width="70%" />
 </div>
 
 <br />
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YTTHEMIGHTY&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=06b6d4&line=3b82f6&point=a855f7" alt="Activity Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YTTHEMIGHTY&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=339933&line=4ade80&point=a855f7" alt="Activity Graph" width="95%" />
 </p>
 
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:142b1a,100:0d1117&height=120&section=footer" width="100%"/>
 </p>
