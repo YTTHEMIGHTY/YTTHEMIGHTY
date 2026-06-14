@@ -32,7 +32,7 @@
 ```json
 {
   "name": "yashvardhan-thanvi",
-  "version": "5.4.14",
+  "version": "5.3.7",
   "description": "Senior Full Stack Engineer · building for the web since Feb 2021",
   "main": "react + next.js + typescript",
   "scripts": {
