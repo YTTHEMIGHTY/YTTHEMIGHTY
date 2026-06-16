@@ -38,7 +38,7 @@
 ```json
 {
   "name": "yashvardhan-thanvi",
-  "version": "5.3.8",
+  "version": "5.3.9",
   "description": "Senior Full Stack Engineer · building robust platforms since Feb 2021",
   "main": "node.js + python + next.js + typescript",
   "scripts": {
