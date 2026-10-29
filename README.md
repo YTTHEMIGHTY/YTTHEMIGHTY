@@ -38,7 +38,7 @@
 ```json
 {
   "name": "yashvardhan-thanvi",
-  "version": "5.7.18",
+  "version": "5.7.19",
   "description": "Senior Full Stack Engineer · building robust platforms since Feb 2021",
   "main": "node.js + python + next.js + typescript",
   "scripts": {
@@ -66,10 +66,10 @@
 
 > ⏱️ *`version` auto-increments daily — it's my live experience counter (years.months.days)*
 
-- 🔭 Currently architecting **high-throughput APIs** and **event-driven microservices** for enterprise platforms
-- 🏗️ Deep expertise in **TypeScript, Node.js (NestJS), Python**, and robust **Next.js/React** frontends
+- 🔭 Senior Frontend Developer & Full Stack Engineer at **Billennium**, architecting resilient enterprise web applications & BFF layers
+- 🏗️ Deep full-stack expertise across **TypeScript, React, Next.js, Node.js (NestJS), Python**, and cloud integrations
 - 🤖 Leveraging **AI-assisted development**, **Model Context Protocol (MCP)**, and **Agentic Workflows**
-- ⚡ Obsessed with **clean system design**, strict payload validation, and **highly performant backend architectures**
+- ⚡ Obsessed with **clean system design**, scalable micro-frontends, strict type contracts, and **high-performance backend architectures**
 
 > *"Everything that can be written in JavaScript, will eventually be written in JavaScript."* — **Atwood's Law**
 

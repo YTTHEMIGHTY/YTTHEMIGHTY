@@ -21,21 +21,24 @@ jobs:
           from datetime import date, timedelta
           import re
 
-          # Career timeline
+          # Career timeline (Anand Rathi actual LWD: 2022-11-29)
           PERIOD_1_START = date(2021, 2, 8)   # DOJ Anand Rathi
-          PERIOD_1_END   = date(2022, 11, 29) # LWD Anand Rathi
+          PERIOD_1_END   = date(2022, 11, 29) # LWD Anand Rathi (actual)
           PERIOD_2_START = date(2022, 12, 26) # DOJ Infosys
+          PERIOD_2_END   = date(2026, 8, 31)  # LWD Infosys
+          PERIOD_3_START = date(2026, 9, 3)   # DOJ Billennium
 
           today = date.today()
 
-          # Calculate total experience days (excluding gap between jobs)
+          # Calculate total experience days (excluding gaps between jobs)
           period_1_days = (PERIOD_1_END - PERIOD_1_START).days
-          period_2_days = (today - PERIOD_2_START).days
-          total_days = period_1_days + period_2_days
+          period_2_days = (PERIOD_2_END - PERIOD_2_START).days
+          period_3_days = (today - PERIOD_3_START).days
+          total_days = period_1_days + period_2_days + period_3_days
 
           # Convert total days to years, months, days
-          # Use an adjusted start date: shift actual start forward by the gap duration
-          gap_days = (PERIOD_2_START - PERIOD_1_END).days
+          # Shift actual start forward by the sum of all gap durations
+          gap_days = (PERIOD_2_START - PERIOD_1_END).days + (PERIOD_3_START - PERIOD_2_END).days
           adjusted_start = PERIOD_1_START + timedelta(days=gap_days)
 
           # Calculate Y.M.D diff between adjusted_start and today
@@ -56,8 +59,10 @@ jobs:
           version = f"{years}.{months}.{days}"
           print(f"📦 Experience version: {version}")
           print(f"   Total days: {total_days}")
-          print(f"   Period 1: {period_1_days} days ({PERIOD_1_START} → {PERIOD_1_END})")
-          print(f"   Period 2: {period_2_days} days ({PERIOD_2_START} → {today})")
+          print(f"   Period 1 (Anand Rathi): {period_1_days} days ({PERIOD_1_START} → {PERIOD_1_END})")
+          print(f"   Period 2 (Infosys): {period_2_days} days ({PERIOD_2_START} → {PERIOD_2_END})")
+          print(f"   Period 3 (Billennium): {period_3_days} days ({PERIOD_3_START} → {today})")
+          print(f"   Total gap: {gap_days} days")
 
           # Update README.md
           with open("README.md", "r") as f:
@@ -87,8 +92,8 @@ jobs:
       - name: Commit & push changes
         id: commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Yashvardhan Thanvi"
+          git config user.email "yashvardhan.programmer@gmail.com"
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
