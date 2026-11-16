@@ -8,11 +8,14 @@ on:
     branches:
     - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
@@ -23,7 +26,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?color_snake=#4ade80&color_dots=#0d1117,#112a1c,#184c27,#227a36,#339933
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
